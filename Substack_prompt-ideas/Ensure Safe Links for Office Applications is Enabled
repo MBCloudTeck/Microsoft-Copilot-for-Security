@@ -1,0 +1,2 @@
+Help me remediate this security finding ? 2.1.1 (L2) Ensure Safe Links for Office Applications is Enabled Test result Test failed. Test details $result = Test-MtCisSafeLink if ($null -ne $result) { $result | Should -Be $true -Because "safe links office applications are Enabled" } Category CIS Tags CIS 2.1.1 L2 CIS E5 Level 2 CIS E5 CIS Security All CIS M365 v3.1.0 Source /home/vsts/work/1/s/tests/cis/Test-MtCisSafeLink.Tests.ps1
+
