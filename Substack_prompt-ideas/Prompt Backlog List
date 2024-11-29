@@ -1,0 +1,240 @@
+Brute Force Detection
+
+Prompt: Investigate failed login attempts exceeding threshold from a single IP or against a single account in Azure Active Directory logs.
+Malware Detection
+
+Prompt: Review Microsoft Defender for Endpoint alerts for detected malware on endpoints, including quarantine actions and affected files.
+Data Exfiltration Detection
+
+Prompt: Analyze unusual data transfer volumes from internal to external destinations in Microsoft Defender for Cloud Apps logs.
+Suspicious Network Activity
+
+Prompt: Examine Azure Network Watcher logs for anomalous traffic patterns or connections to known malicious IP addresses.
+Phishing Email Detection
+
+Prompt: Check Microsoft Defender for Office 365 for emails flagged as phishing attempts and assess the impact on recipients.
+Unauthorized Access Attempt
+
+Prompt: Look into Azure AD sign-in logs for access attempts from unauthorized devices or locations not typical for the user.
+Suspicious File Download
+
+Prompt: Investigate downloads of executable files from uncommon URLs using Microsoft Defender for Endpoint web protection logs.
+Privilege Escalation Attempt
+
+Prompt: Review Azure AD audit logs for changes in user privileges, especially sudden assignments to admin roles.
+Lateral Movement Detection
+
+Prompt: Analyze lateral movement paths in Microsoft Defender for Identity to identify suspicious authentication attempts between systems.
+Command and Control (C2) Traffic Detection
+
+Prompt: Search for outbound connections to known C2 domains or IPs in Microsoft Defender for Endpoint network traffic logs.
+Anomalous User Behavior
+
+Prompt: Use Microsoft 365 User Behavior Analytics to detect deviations from normal user activity patterns.
+DNS Tunneling Detection
+
+Prompt: Examine DNS query logs in Azure DNS Analytics for patterns indicative of tunneling activities.
+Insider Threat Detection
+
+Prompt: Monitor for unusual access to sensitive files or systems by internal users using Microsoft Insider Risk Management.
+Suspicious Process Execution
+
+Prompt: Check for execution of unauthorized or uncommon processes on endpoints in Microsoft Defender for Endpoint.
+File Integrity Monitoring
+
+Prompt: Review changes to critical system files using Azure Monitor logs to detect unauthorized modifications.
+Web Server Attack Detection
+
+Prompt: Analyze Azure Web Application Firewall logs for SQL injection, XSS, and other web attack signatures.
+Unusual Login Location
+
+Prompt: Investigate sign-in attempts from geolocations not associated with the user in Azure AD sign-in logs.
+DDoS Attack Detection
+
+Prompt: Monitor Azure DDoS Protection metrics for spikes in network traffic indicative of a DDoS attack.
+Ransomware Activity Detection
+
+Prompt: Look for mass file encryption activities on endpoints using Microsoft Defender for Endpoint alerts.
+Exploit Attempt Detection
+
+Prompt: Review Microsoft Defender for Endpoint for exploit guard detections and blocked exploit attempts.
+Failed Login Attempts Threshold
+
+Prompt: Identify accounts with multiple consecutive failed login attempts in Azure AD sign-in logs.
+Credential Dumping Detection
+
+Prompt: Check for the use of credential dumping tools or suspicious access to LSASS process in Microsoft Defender for Endpoint.
+Port Scanning Activity
+
+Prompt: Detect port scanning activities originating from internal hosts using Azure Network Watcher flow logs.
+Suspicious PowerShell Command Execution
+
+Prompt: Analyze PowerShell logs for execution of encoded or obfuscated commands in Microsoft Defender for Endpoint.
+Rogue Access Point Detection
+
+Prompt: Use Microsoft Defender for IoT to detect unauthorized wireless access points connected to the network.
+New Service Installation
+
+Prompt: Monitor Windows Event Logs for the creation of new services using Microsoft Sentinel.
+Anomalous Database Query
+
+Prompt: Investigate unusual queries or data access patterns in Azure SQL Database auditing logs.
+Unauthorized File Access
+
+Prompt: Review access logs for sensitive files in SharePoint or OneDrive using Microsoft 365 audit logs.
+Suspicious USB Device Activity
+
+Prompt: Detect unauthorized USB device usage on endpoints via Microsoft Defender for Endpoint device control logs.
+Firewall Policy Change Detection
+
+Prompt: Monitor Azure Firewall configuration changes using Azure Activity Logs for unauthorized modifications.
+Privileged Account Login Outside Business Hours
+
+Prompt: Identify admin account logins during unusual hours in Azure AD sign-in logs.
+Endpoint Isolation Trigger
+
+Prompt: Isolate compromised endpoints using Microsoft Defender for Endpoint's device isolation feature.
+Suspicious Registry Key Modification
+
+Prompt: Check for changes to critical registry keys associated with persistence mechanisms in Microsoft Defender for Endpoint.
+Active Directory Enumeration
+
+Prompt: Detect enumeration activities against Active Directory using Microsoft Defender for Identity.
+Email Spoofing Detection
+
+Prompt: Analyze inbound emails for SPF, DKIM, and DMARC failures in Microsoft Defender for Office 365.
+Suspicious Application Installation
+
+Prompt: Monitor installations of unauthorized applications on devices via Microsoft Endpoint Manager.
+HTTP Anomalies Detection
+
+Prompt: Use Azure Application Gateway logs to detect unusual HTTP request patterns or anomalies.
+Network Traffic Spikes
+
+Prompt: Examine network performance metrics in Azure Monitor for sudden increases in traffic volume.
+User Account Creation
+
+Prompt: Review Azure AD audit logs for new user accounts, especially those created by non-admin users.
+File Encryption Activity Detection
+
+Prompt: Detect bulk file modifications consistent with encryption using Microsoft Defender for Endpoint.
+Suspicious VPN Connection
+
+Prompt: Investigate VPN connections from unusual locations or at odd times using Azure VPN logs.
+DNS Query for Known Malicious Domains
+
+Prompt: Search for DNS queries to malicious domains using Microsoft Defender Threat Intelligence.
+Unusual Process Parent-Child Relationship
+
+Prompt: Analyze process trees in Microsoft Defender for Endpoint for atypical parent-child process relationships.
+SMB Lateral Movement Detection
+
+Prompt: Detect suspicious SMB traffic that may indicate lateral movement using Microsoft Defender for Identity.
+Excessive File Access by a Single User
+
+Prompt: Identify users accessing a large number of files in a short period via Microsoft 365 audit logs.
+Suspicious Archive File Extraction
+
+Prompt: Monitor for the extraction of large or encrypted archives on endpoints using Microsoft Defender for Endpoint.
+Detection of Default or Weak Credentials
+
+Prompt: Use Azure AD Identity Protection to identify accounts with weak or leaked passwords.
+Suspicious Scheduled Task Creation
+
+Prompt: Check for new or modified scheduled tasks on systems via Windows Event Logs in Microsoft Sentinel.
+Remote Desktop Protocol (RDP) Anomalies
+
+Prompt: Monitor for unusual RDP connections or failed attempts using Azure Monitor logs.
+Beaconing Traffic Detection
+
+Prompt: Detect periodic network connections to external IPs indicative of beaconing using Microsoft Defender for Endpoint.
+Shadow IT Application Usage
+
+Prompt: Identify unauthorized cloud applications accessed by users via Microsoft Defender for Cloud Apps.
+Cloud Storage Upload Spikes
+
+Prompt: Analyze for unusual spikes in data uploads to OneDrive or SharePoint using Microsoft 365 audit logs.
+Unauthorized Configuration Change
+
+Prompt: Monitor Azure Resource Manager activity logs for unauthorized changes to configurations.
+Tor Network Connection Detection
+
+Prompt: Detect connections to Tor entry nodes in network traffic logs using Microsoft Defender for Endpoint.
+Anomalous File Deletion Patterns
+
+Prompt: Investigate bulk file deletions or modifications in Microsoft 365 services using audit logs.
+Unauthorized API Call Detection
+
+Prompt: Review Azure AD sign-in logs for unexpected API calls or application permissions grants.
+System Crash Dump Access
+
+Prompt: Monitor access to memory dump files on systems via Microsoft Defender for Endpoint.
+Browser Exploit Detection
+
+Prompt: Check for alerts related to browser exploits or malicious plugins in Microsoft Defender for Endpoint.
+Abnormal SSL Certificate Usage
+
+Prompt: Analyze SSL/TLS certificate anomalies in network traffic using Azure Network Watcher.
+Suspicious Script Execution in Browsers
+
+Prompt: Investigate execution of unauthorized scripts in browsers via Microsoft Defender Application Guard logs.
+Suspicious Outbound Traffic Volume
+
+Prompt: Monitor endpoints generating unusually high outbound traffic using Microsoft Defender for Endpoint.
+Email Attachment with Executable Files
+
+Prompt: Detect emails with executable attachments in Microsoft Defender for Office 365 and quarantine them.
+Unauthorized Network Share Access
+
+Prompt: Review access logs for network shares to detect unauthorized access attempts.
+Excessive Admin Privilege Assignments
+
+Prompt: Monitor Azure AD for sudden increases in users granted administrative roles.
+Anomalous Device Connection in Network
+
+Prompt: Identify unknown devices connecting to the network using Microsoft Defender for IoT.
+Suspicious Command Execution in CLI
+
+Prompt: Analyze command-line activities for suspicious commands using Microsoft Defender for Endpoint.
+Endpoint Beaconing to Non-Standard Port
+
+Prompt: Detect outbound connections from endpoints to unusual ports in network logs.
+Exploit Kit Activity Detection
+
+Prompt: Look for exploit kit signatures in web traffic using Microsoft Defender for Endpoint.
+Unauthorized Cloud Account Login
+
+Prompt: Investigate sign-ins to Azure or Microsoft 365 services from unrecognized devices or locations.
+Excessive DNS Requests to External Servers
+
+Prompt: Monitor for high volumes of DNS queries to external servers using Azure DNS Analytics.
+Suspicious DHCP Activity
+
+Prompt: Analyze DHCP server logs for unusual IP address assignments or conflicts.
+Unauthorized Firmware Updates
+
+Prompt: Check for firmware changes on devices via hardware management logs.
+Unusual IoT Device Behavior
+
+Prompt: Monitor IoT devices for anomalous activities using Microsoft Defender for IoT.
+Credential Harvesting Attempt Detection
+
+Prompt: Detect phishing pages and credential input on malicious sites via Microsoft Defender SmartScreen.
+Abuse of Remote Management Tools
+
+Prompt: Investigate the use of remote tools like PsExec or Remote Desktop in Microsoft Defender for Endpoint.
+Unauthorized Access to Backup Files
+
+Prompt: Review access logs for backup storage locations to detect unauthorized access.
+Unusual Binary Execution from Temp Directory
+
+Prompt: Check for executables running from temporary directories in Microsoft Defender for Endpoint.
+Suspicious ZIP/RAR File Creation
+
+Prompt: Monitor the creation of compressed archives, especially encrypted ones, on endpoints.
+Unauthorized Access to Financial Data
+
+Prompt: Investigate access logs for financial databases or files for unauthorized user activity.
+Abuse of Group Policy Objects (GPO)
+
+Prompt: Review changes to GPO settings in Active Directory using Microsoft Sentinel to detect unauthorized modifications.
